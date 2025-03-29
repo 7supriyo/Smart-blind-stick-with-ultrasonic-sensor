@@ -15,7 +15,7 @@ This project aims to develop an affordable and efficient smart blind stick desig
 ## Components Used
 
 - **Raspberry Pi Pico (Microcontroller):** Serves as the main controller, processing input from the ultrasonic sensors and controlling the buzzer and vibration motor.
-- **HC-SR04 Ultrasonic Sensor (x2):** Used for measuring distances and detecting obstacles.
+- **HC-SR04 Ultrasonic Sensor:** Used for measuring distances and detecting obstacles.
 - **Piezo Buzzer (5V):** Provides auditory feedback to the user.
 - **Vibration Motor (3V):** Provides haptic feedback to the user.
 
