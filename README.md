@@ -106,7 +106,8 @@ The performance of the smart blind stick was evaluated based on the distance det
 
 ### Simulation Results
 
-![Wokwi simulation output]("C:\Users\supri\OneDrive\Pictures\Screenshots\Screenshot 2025-03-29 155413.png")
+![Wokwi simulation output](![Screenshot 2025-03-29 155413](https://github.com/user-attachments/assets/7e2091f2-2168-43bb-aab7-bf81c3b0a1e9)
+)
 
 ## Conclusion
 
