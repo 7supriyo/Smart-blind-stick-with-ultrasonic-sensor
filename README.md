@@ -43,46 +43,9 @@ This project aims to develop an affordable and efficient smart blind stick desig
 | Vibration Motor      | GP18     | Haptic feedback  |
 | Power Switch         | GP20     | System control   |
 
-## Software Implementation
 
-### MicroPython Code
 
-The main detection algorithm is implemented using MicroPython. Below is a snippet of the code:
 
-```python
-from machine import Pin, PWM
-import utime
-
-# Initialize components
-trigger = Pin(3, Pin.OUT)
-echo = Pin(2, Pin.IN)
-buzzer = PWM(Pin(19))
-motor = Pin(18, Pin.OUT)
-
-def get_distance():
-    trigger.low()
-    utime.sleep_us(2)
-    trigger.high()
-    utime.sleep_us(10)
-    trigger.low()
-    
-    while echo.value() == 0:
-        start = utime.ticks_us()
-    while echo.value() == 1:
-        end = utime.ticks_us()
-        
-    return (end - start) * 0.0343 / 2
-
-while True:
-    dist = get_distance()
-    if dist < 50:  # Alert thresholds
-        buzzer.freq(800 if dist < 30 else 500)
-        motor.value(1)
-    else:
-        buzzer.duty_u16(0)
-        motor.value(0)
-    utime.sleep(0.1)
-```
 
 ### Algorithm Flow
 
