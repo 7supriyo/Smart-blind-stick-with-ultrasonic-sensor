@@ -85,9 +85,7 @@ The implemented system successfully detects obstacles within a 2m range with ±2
 1. Raspberry Pi Foundation, "Raspberry Pi Pico Datasheet," [Online]. Available: https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf. [Accessed: Mar. 29, 2025].
 2. HC-SR04 Ultrasonic Sensor Technical Manual, [Online]. Available: https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf. [Accessed: Mar. 29, 2025].
 3. MicroPython Documentation, [Online]. Available: https://docs.micropython.org/en/latest/. [Accessed: Mar. 29, 2025].
-4. A. Author, B. Author, and C. Author, "A Smart Stick for Assisting Blind People using Ultrasonic Sensors," *International Journal of Advanced Research in Computer and Communication Engineering*, vol. 4, no. 3, pp. 123-127, Mar. 2015, doi: 10.17148/IJARCCE.2015.4138.
-5. D. Author and E. Author, "Design and Development of an Ultrasonic Sensor-Based Smart Cane for Visually Impaired People," *Journal of Medical Engineering & Technology*, vol. 36, no. 4, pp. 230-235, Apr. 2012, doi: 10.3109/03091902.2012.704051.
-6. F. Author and G. Author, "Implementation of a Smart Blind Stick for Obstacle Detection and Navigation," *International Journal of Engineering and Technology*, vol. 7, no. 2, pp. 200-204, Feb. 2018, doi: 10.14419/ijet.v7i2.32.11601.
+
 
 ## License
 
